@@ -21,46 +21,11 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"></script>
       <link rel="stylesheet" href="./css/style.css  ">
+      <link rel="stylesheet" href="./css/article.css  ">
 
     <title>Articles</title>
     <style>
-        .article
-        {
-            height:180px;
-            width: 80%;
-            background-color: rgb(239, 241, 241);
-            margin: 20px auto;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            border: 2px solid black;
-        }
-        .article-img {
-            width: 30%;
-            padding: 10px;
-        }
-        .article-img img{
-            height: 160px;
-            width: 100%;
-            border-radius: 10px;
-            object-fit: fill;
 
-        }
-        .article-info
-        {
-            width:65%;
-            padding-left: 15px;
-            display: flex;
-            flex-direction: column;
-            justify-content:center;
-        }
-        .article-info a
-        {
-            padding: 0 5px;
-            width:100px;
-            border-radius: 5px;
-            border: 2px solid black;
-        }
         
         
     </style>
@@ -68,7 +33,7 @@
 <body>
     <nav class=" navbar navbar-expand-lg bg-dark">
         <a class="navbar-brand" href="#"
-          ><img style="height: 60px" src="../images/logo1.png" alt=""
+          ><img style="height: 60px" src="./images/logo1.png" alt=""
         /></a>
         <button
           class="navbar-toggler"
@@ -87,12 +52,12 @@
             <a class="nav-link" href="./home.html"
               >Home <span class="sr-only">(current)</span></a>
             
-            <a class="nav-link" href="./home.html #about ">About</a>
+            <a class="nav-link" href="./home.html#about ">About</a>
   
-            <a class="nav-link" href="#">Article</a>
+            <a class="nav-link active" href="./articles.html">Articles</a>
             <a class="nav-link" href="#">Solution</a>
-            <a class="nav-link" href="#">Test Youerself</a>
-            <a class="nav-link" href="#">Your Views</a>
+            <!-- <a class="nav-link" href="#">Test Youerself</a> -->
+            <a class="nav-link" href="./your_views.php">Your Views</a>
   
           </div>
         </div>
@@ -105,7 +70,8 @@
                 </div>
                 <div class="article-info">
                     <h3>Five Facts to Help you understand Sea Ice </h3>
-                    <p>Sea ice plays an imortant role in regulation our climate. Here are five facts to help you better your understanding of Artic sea ice>
+                    <p>Sea ice plays an imortant role in regulation our climate. Here are five facts to help you better your understanding of Artic sea ice.
+                        <p>
                      <a href="https://climate.nasa.gov/news/3122/five-facts-to-help-you-understand-sea-ice/">
                         <button>Read More</button>
                     </a> 
@@ -114,7 +80,7 @@
 
             <div class="article">
                 <div class="article-img">
-                    <img src="https://www.orissapost.com/wp-content/uploads/2019/07/Antarctica.jpg" alt="">
+                    <img src="https://climate.nasa.gov/system/news_items/main_images/3118_main-antarctic-melange-1041.jpeg" alt="">
                 </div>
                 <div class="article-info">
                     <h3>Icy 'Glue' May Control Pace of Antartica Ice-Shelf Breakup</h3>
@@ -140,8 +106,28 @@
                 </div>
                 <div class="article-info">
                     <h3>Locals Lockdowns Broght Fast Global Ozone Reductions, NASA Finds </h3>
-                    <p></p>
-                    <a href=""><button>Read More</button></a> 
+                    <p>When lockdowns during the coronavirus pandemic cut local nitrogen oxide emissions, the effect on ozone pollution was global and unexpectedly rapid.</p>
+                    <a href="https://climate.nasa.gov/news/3089/local-lockdowns-brought-fast-global-ozone-reductions-nasa-finds/"><button>Read More</button></a> 
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-img">
+                    <img src="https://climate.nasa.gov/system/news_items/main_images/3057_main_image.jpg" alt="">
+                </div>
+                <div class="article-info">
+                    <h3>Land Ecosystems Are Becoming Less Efficient at Absorbing Carbon Dioxide </h3>
+                    <p>As atmospheric carbon dioxide levels increase, 86% of land ecosystems globally are becoming less efficient at absorbing increasing levels of the greenhouse gas.</p>
+                    <a href="https://climate.nasa.gov/news/?page=1&per_page=40&order=publish_date+desc%2C+created_at+desc&search=&category=19%2C98"><button>Read More</button></a> 
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-img">
+                    <img src="https://climate.nasa.gov/system/news_items/main_images/3038_main_image.jpg" alt="">
+                </div>
+                <div class="article-info">
+                    <h3>The Anatomy of Glacial Ice Loss </h3>
+                    <p>A warming climate is taking its toll on Greenland and Antarctica glaciers, melting them from above and below the surface. The more they melt, the higher sea levels rise.</p>
+                    <a href="https://climate.nasa.gov/news/3038/the-anatomy-of-glacial-ice-loss/"><button>Read More</button></a> 
                 </div>
             </div>
         </div>
