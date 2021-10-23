@@ -13,7 +13,7 @@
   transition: transform .6s; /* Animation */
   width: 200px;
   min-height: fit-content;
-  /* z-index:-1; */
+  
   
 }
 .card:hover {

@@ -79,7 +79,7 @@
 
 .bg_container {
   height: 600px;
-  /* background-color:#010103; */
+  
 }
 .bg_container ::before {
   content: "";
@@ -159,7 +159,7 @@
 .form-section
 {
   width:100%;
-  /* background-color:red; */
+  
 }
 .form-container
 {
@@ -200,7 +200,7 @@
 .comment-section
 {
   width:90%;
-  /* background-color: red; */
+  
   margin:20px auto;
   padding:10px
 }
@@ -210,7 +210,7 @@
 }
 .comment
 {
-  /* background-color: rgb(168, 241, 232); */
+  
   padding:10px 20px;
   margin:20px 0;
   border:1px solid black;
@@ -227,134 +227,15 @@
   position: absolute;
   top:53px;
   left:0px;
-  height:630px;
+  height:720px;
   width:100%;
   z-index: -1
 }
 .maps-frame
 {
-  height: 630px;
+  height: 720px;
   width:100%; 
   transform: scale(1) !important; 
   transform-origin: 0px 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .row{
-	display: flex;
-	height: 88%;
-	align-text: centre
-}
-
-.col{
-	flex-basis: 50%
-}
-
-.card
-{
-	height: 180px;
-	width:150px;
-	position: relative;d
-	margin: 10px;
-	background-color: green;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 1px solid black;
-	border-radius: 6px;
-	z-index: 1;
-	cursor: pointer;
-	box-sizing: border-box;
-	margin: 10px 15px;
-	padding: 15px 25px;
-	
-} 
-#card1 ::before
-{
-	content: "";
-	background: url('../images/1.png') no-repeat center center/cover;
-	height: 200px;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left:0;
-	z-index: -1;
-	border-radius: 6px;
-	
-	
-}
-#card2 ::before
-{
-	content: "";
-	background: url('../images/Untitled\ design\ \(11\).png') no-repeat center center/cover;
-	height: 200px;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left:0;
-	z-index: -1;
-	border-radius: 6px;
-}
-#card3 ::before
-{
-	content: "";
-	background: url('../images/air_index.jpg') no-repeat center center/cover;
-	height: 200px;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left:0;
-	z-index: -1;
-	border-radius: 6px;
-}
-#card4 ::before
-{
-	content: "";
-	background: url('../images/background.png') no-repeat center center/cover;
-	height: 300px;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left:0;
-	z-index: -1;
-	border-radius: 6px;
-}
-
-.card :hover
-{
-	text-decoration: underline;
-} 
-.bg_image{
-height: inherit;
-width: inherit;
-} */

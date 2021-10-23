@@ -25,6 +25,7 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"></script>
       <link rel="stylesheet" href="./css/style.css  ">
+      <link rel="stylesheet" href="./css/your_views.css  ">
 
     <title>Your Views</title>
     
@@ -45,7 +46,7 @@
           aria-label="Toggle navigation"
         >
         <h2><i class="fas fa-bars"></i></h2>
-        <!-- <div><span class="navbar-toggler-icon"></span></div> -->
+        
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
