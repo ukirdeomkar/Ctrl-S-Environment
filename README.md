@@ -35,7 +35,7 @@ Completing the project in time, learning how to use APIs on a webapp, and to hav
 
 ## Contributor
 
-Omkar Ukirde
-Tejas Veer
+Omkar Ukirde |
+Tejas Veer |
 Rohan Chaudhari
 
