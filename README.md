@@ -33,4 +33,9 @@ We actually misinterprated the time as 11 AM IST for 11PM IST , So as a matter o
 Completing the project in time, learning how to use APIs on a webapp, and to have learnt a huge deal in just 24 hours.
 
 
+## Contributor
+
+Omkar Ukirde
+Tejas Veer
+Rohan Chaudhari
 
