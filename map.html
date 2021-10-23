@@ -31,8 +31,9 @@
   </head>
   <body>
     <nav class=" navbar navbar-expand-lg bg-dark">
-      <a class="navbar-brand" href="#"
-        ><img style="height: 60px" src="../images/logo1.png" alt=""
+      <a class="navbar-brand" href="home.html"
+        ><img style="height: 60px" src="./images/logo1.png" alt=""
+      /><img style="height: 60px" src="./images/Ctrl+s (1).png" alt=""
       /></a>
       <button
         class="navbar-toggler"
@@ -48,15 +49,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-link" href="#"
+          <a class="nav-link" href="./home.html"
             >Home <span class="sr-only">(current)</span></a>
           
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="./home.html#about">About</a>
+          <a class="nav-link active" href="./map.html">Maps</a>
 
-          <a class="nav-link" href="#">Article</a>
-          <a class="nav-link" href="#">Solution</a>
-          <a class="nav-link" href="#">Test Youerself</a>
-          <a class="nav-link" href="#">Your Views</a>
+          <a class="nav-link" href="./articles.html">Article</a>
+          <a class="nav-link" href="./facts.html">Facts</a>
+          <a class="nav-link" href="./your_views.php">Your Views</a>
 
         </div>
       </div>
@@ -72,7 +73,7 @@
 
 
     <!-- image end -->
-    <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
+    <ul class="nav nav-pills d-flex justify-content-center" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="pills-CO-tab" data-bs-toggle="pill" data-bs-target="#pills-CO" type="button" role="tab" aria-controls="pills-CO" aria-selected="true">Carbon Emission</button>
         </li>
@@ -88,9 +89,9 @@
       </ul>
       <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-CO" role="tabpanel" aria-labelledby="pills-home-tab">
-            <div class="map1" style="overflow: hidden;position: absolute;top:53px;left:0px; height:580px; width:100%;z-index: -1"  >
-                <iframe class="" rel="nofollow" style="height: 580px; width:100%; transform: scale(1) !important; transform-origin: 0px 0px;" frameborder="0" scrolling="no" 
-                src="https://embed.windy.com/embed2.html?lat=15.327&lon=72.905&detailLat=19.083&detailLon=72.905&width=650&height=450&zoom=5&level=surface&overlay=cosc&product=geos5&menu=&message=true&marker=true&calendar=now&pressure=true&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1">
+            <div class="map"   >
+                <iframe class="maps-frame" rel="nofollow"  frameborder="0" scrolling="no" 
+                src="https://embed.windy.com/embed2.html?lat=21.001&lon=78.665&detailLat=21.001&detailLon=78.665&width=650&height=450&zoom=5&level=surface&overlay=cosc&product=geos5&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1">
                 </iframe>
             </div>
             <div class="information-cont">
@@ -99,8 +100,8 @@
         </div>
 
         <div class="tab-pane fade" id="pills-ozone" role="tabpanel" aria-labelledby="pills-profile-tab">
-            <div class="map2" style="overflow: hidden;position: absolute;top:53px;left:0px; height:580px; width:100%;z-index: -1"  >
-                <iframe class="" rel="nofollow" style="height: 580px; width:100%; transform: scale(1) !important; transform-origin: 0px 0px;" frameborder="0" scrolling="no" 
+            <div class="map"   >
+                <iframe class="maps-frame" rel="nofollow"  frameborder="0" scrolling="no" 
                 src="https://embed.windy.com/embed2.html?lat=21.001&lon=78.665&detailLat=21.001&detailLon=78.665&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1">
                 </iframe>
             </div>      
@@ -108,16 +109,16 @@
         </div>
 
         <div class="tab-pane fade" id="pills-temp" role="tabpanel" aria-labelledby="pills-contact-tab">
-            <div class="map3" style="overflow: hidden;position: absolute;top:53px;left:0px; height:580px; width:100%;z-index: -1"  >
-                <iframe class="" rel="nofollow" style="height: 580px; width:100%; transform: scale(1) !important; transform-origin: 0px 0px;" frameborder="0" scrolling="no" 
+            <div class="map" >
+                <iframe class="maps-frame" rel="nofollow"  frameborder="0" scrolling="no" 
                 src="https://embed.windy.com/embed2.html?lat=20.981&lon=78.665&detailLat=20.981&detailLon=78.665&width=650&height=450&zoom=5&level=surface&overlay=temp&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1">
                 </iframe>
             </div>
         </div>
 
         <div class="tab-pane fade" id="pills-air" role="tabpanel" aria-labelledby="pills-contact-tab">
-            <div class="map4" style="overflow: hidden;position: absolute;top:53px;left:0px; height:580px; width:100% ;z-index: -1;"  >
-                <iframe class="" rel="nofollow" style="height: 580px; width:100%; transform: scale(1) !important; transform-origin: 0px 0px;" frameborder="0" scrolling="no" 
+            <div class="map"   >
+                <iframe class="maps-frame" rel="nofollow"  frameborder="0" scrolling="no" 
                 src="https://embed.windy.com/embed2.html?lat=21.001&lon=78.665&detailLat=21.001&detailLon=78.665&width=650&height=450&zoom=5&level=surface&overlay=rh&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1">
                 </iframe>
             </div>

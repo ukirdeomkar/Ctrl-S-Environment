@@ -44,6 +44,11 @@
   --heaven: #ffffff;
   --footer: #2d333f;
 }
+.active
+{
+  color: #d3ad7f;
+  text-decoration: underline;
+}
 .nav-link {
   margin-right: 40px;
   font-size: 1.25rem;
@@ -51,8 +56,8 @@
   color: white;
 }
 
-.nav-link:hover {
-  color: #d3ad7f;
+.navbar .nav-link:hover {
+  color: orange;
 }
 
 .fas {
@@ -65,9 +70,10 @@
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.064);
+  position:sticky;
 }
 
-.map1 {
+.maps {
   z-index: -1;
 }
 
@@ -88,13 +94,14 @@
 .btn-maps {
   display: block;
   margin: auto;
-  border: 2px solid black;
+  border: 0.2px solid black;
   border-radius: 5px;
   background-color: rgb(139, 75, 75);
   color: white;
-  padding: 5px;
+  padding: 8px;
   margin: 10px;
-  margin-left: 50px;
+  margin-left: 24%;
+  width: 200px;
 }
 
 .card-container {
@@ -120,18 +127,14 @@
 .card-container a :hover {
   background-color: orange;
 }
-body {
-  /* background-color: black; */
-}
+
 .blank {
   background-color: black;
 }
-.boss {
-  /* padding-left: 40%;
-  padding-top: 3%;
-  padding-bottom: 3%; */
-}
+
 .boss h1 {
+  padding-top: 3%;
+  padding-bottom: 3%;
   text-align: center;
 }
 .card-container a {
@@ -151,6 +154,121 @@ body {
   background: whitesmoke;
   margin: 20px;
 }
+
+
+.form-section
+{
+  width:100%;
+  /* background-color:red; */
+}
+.form-container
+{
+  width:90%;
+  background-color: rgb(209, 228, 225);
+  margin:20px  auto;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+.form-container h2
+{
+  text-align: center;
+  margin:0px 0;
+}
+.form input,.form textarea
+{
+  width:80%;
+  display:block;
+  padding: 7px 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+
+}
+.form button
+{
+  width:100px;
+  display: block;
+  margin: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border:2px solid black;
+}
+.form button :hover
+{
+  background-color: orange;
+}
+
+.comment-section
+{
+  width:90%;
+  /* background-color: red; */
+  margin:20px auto;
+  padding:10px
+}
+.comment-section h3
+{
+  margin-bottom: 30px;
+}
+.comment
+{
+  /* background-color: rgb(168, 241, 232); */
+  padding:10px 20px;
+  margin:20px 0;
+  border:1px solid black;
+  border-radius:5px;
+}
+.comment h5
+{
+  text-decoration:underline;
+}
+
+.map
+{
+  overflow: hidden;
+  position: absolute;
+  top:53px;
+  left:0px;
+  height:630px;
+  width:100%;
+  z-index: -1
+}
+.maps-frame
+{
+  height: 630px;
+  width:100%; 
+  transform: scale(1) !important; 
+  transform-origin: 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .row{
 	display: flex;

@@ -1,0 +1,57 @@
+.article
+{
+    height: fit-content;
+    width: 95%;
+    background-color: whitesmoke;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 0.2px  black;
+    border-style: double ;
+}
+.oss h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+ text-align: center;
+}
+.article-img {
+    width: 30%;
+    padding: 10px;
+
+}
+.article-img img{
+    height: 292px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: fill;
+
+}
+.article-info
+{
+    width:65%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+
+}
+.article-info button
+{
+    padding: 6px;
+    width:100px;
+    border-radius: 5px;
+    color: white;
+    background: grey;
+    border-style: groove;
+}
+.article-info a :hover
+{
+    background-color: orange;
+}
+.nav-item button:hover
+{
+    background-color: orange;
+}

@@ -1,0 +1,28 @@
+.fact-container {
+    display : flex;
+    flex-wrap:wrap;
+    flex-grow:2;
+    justify-content: space-evenly;
+    flex-shrink: 0.7;
+}
+.card
+{
+  margin:10px;
+
+  background-color: whitesmoke;
+  transition: transform .6s; /* Animation */
+  width: 200px;
+  min-height: fit-content;
+  /* z-index:-1; */
+  
+}
+.card:hover {
+  background-color:orange;
+  z-index:1;
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+body
+{
+  background:url("https://thumbor.forbes.com/thumbor/711x474/http://specials-images.forbesimg.com/imageserve/473329831/960x0.jpg?fit=scale") no-repeat center center/cover;
+}
+ 
