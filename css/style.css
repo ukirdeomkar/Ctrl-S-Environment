@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-medium";
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-semibold";
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-black";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-extrabold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary:#EEBF00;
+    --secondary:#232B38;
+    --ternary:#6c6c6c;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --light:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#2D333F;
+
+}
+body{
+    background-color: black;
+}
+.logo{
+        width:50px;
+        cursor: pointer;
+    }
+#navbarNavAltMarkup{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-nav a{
+    text-decoration: none;
+    color: var(--light);    
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* padding: 0 3rem; */
+    transition: all 0.3s ease;
+    /* -webkit-text-fill-color: var(--light); */
+    
+}
+
+
+/* .navbar a.active{
+    background: var(---primary);
+    color: var(--pure);
+} */
+
+
+/* .navbar a:hover{
+text-shadow : var(--primary);
+color: var(--pure);
+/* border-radius: 6px;
+} */
+
+.nav-link
+{
+    color: white;
+    font-weight: 700;
+    margin-right: 3rem;
+}
+.nav-link :hover{
+    color:var(--danger);
+}
+
+
+
+
+/* --------------- Map Section ----------- */
+.map iframe{
+   
+    height: 100%;
+}
